@@ -1,0 +1,33 @@
+.column-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-left .name-wrapper {
+  background-color: black;
+  text-align: center;
+
+  position: relative;
+  top: 25vh;
+
+  font-size: 2em;
+  padding: 1em 0;
+}
+
+.column-left .name {
+  color: white;
+}
+
+.column-left .copyright-wrapper {
+  background-color: black;
+  text-align: center;
+}
+
+.column-left .copyright-message {
+  color: white;
+  padding: 0.5em;
+}
+
+.column-left .whitespace {
+  flex-grow: 1;
+}
