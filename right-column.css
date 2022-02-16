@@ -1,0 +1,66 @@
+.column-right {
+  background-color: white;
+  padding: 0 50px;
+}
+
+/* Text intro*/
+.text-wrapper {
+  font-size: 1.5em;
+  margin-top: 10vh;
+  width: 30em;
+}
+
+/* Formulary */
+.formulary {
+  padding: 1em;
+}
+
+.call-to-action {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+/* inputs grid */
+.input-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* input wrapper style */
+.input-wrapper {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+
+}
+
+/* input styling */
+.input-wrapper > div {
+  margin-top: 1.5em;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding:0.4em 0;
+  padding-left: 0.5em;
+}
+
+/* submit */
+.formulary button {
+  background-color: rgb(26, 148, 32);
+  color: white;
+  font-weight: 600;
+  padding: 0.5em 4em;
+  border-radius: 0.5em;
+}
