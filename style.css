@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  display: flex;
+  direction: row;
+  flex-grow: 1;
+}
+
+body > div {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.column-left {
+  background-color: lightcoral;
+}
+
+.column-right {
+  background-color: lightgreen
+}
