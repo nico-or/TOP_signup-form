@@ -1,12 +1,10 @@
 body {
   margin: 0;
-  display: flex;
-  direction: row;
-  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 body > div {
-  flex-grow: 1;
   height: 100vh;
 }
 
