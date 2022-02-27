@@ -1,6 +1,10 @@
 .column-left {
   display: flex;
   flex-direction: column;
+  background-image: url('img/pexels-ian-beckley-2440079.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .column-left .name-wrapper {
