@@ -1,6 +1,11 @@
 .column-right {
   background-color: white;
-  padding: 0 50px;
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Text intro*/
