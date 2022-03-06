@@ -13,12 +13,23 @@
   position: relative;
   top: 25vh;
 
-  font-size: 2em;
-  padding: 1em 0;
+  font-size: 4em;
+  padding: 0.5em 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  gap: 0.5em;
 }
 
 .column-left .name {
   color: white;
+}
+
+#logo {
+  height: 1.5em;
 }
 
 .column-left .copyright-wrapper {
