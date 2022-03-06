@@ -16,14 +16,9 @@ p {margin-bottom: 1em}
 em {font-style: italic}
 
 /* Formulary */
-.formulary {
-  padding: 1em;
-}
+.formulary{margin-top: 1em}
 
-.call-to-action {
-  font-size: 1.2em;
-  margin-bottom: 1em;
-}
+.call-to-action {margin-bottom: 1em}
 
 /* inputs grid */
 .input-wrapper {
