@@ -1,3 +1,6 @@
+/* external name font */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 .column-left {
   display: flex;
   flex-direction: column;
@@ -26,6 +29,7 @@
 
 .column-left .name {
   color: white;
+  font-family: 'Kaushan Script', cursive;
 }
 
 #logo {
