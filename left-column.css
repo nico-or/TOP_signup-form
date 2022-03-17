@@ -1,0 +1,64 @@
+/* external name font */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  background-image: url('img/pexels-ian-beckley-2440079.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.column-left .name-wrapper {
+  text-align: center;
+
+  position: relative;
+  top: 25vh;
+
+  font-size: 4em;
+  padding: 0.5em 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  gap: 0.5em;
+}
+
+.column-left .name {
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+}
+
+#logo {
+  height: 1.5em;
+}
+
+.column-left .copyright-wrapper {
+  text-align: center;
+}
+
+.column-left .copyright-message {
+  color: white;
+  padding: 0.5em;
+}
+
+.column-left .whitespace {
+  flex-grow: 1;
+}
+
+.bg-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.copyright-message a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.copyright-message a:hover {
+  text-decoration:underline
+}
